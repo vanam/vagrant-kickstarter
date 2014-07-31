@@ -12,6 +12,7 @@
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 
+        # Allow overrides in .htaccess file
         <Directory /var/www/>
                 Options FollowSymLinks
                 AllowOverride All
