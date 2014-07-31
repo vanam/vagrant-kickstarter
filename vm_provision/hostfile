@@ -1,8 +1,7 @@
 <VirtualHost *:80>
 
         # Admin email, Server Name (domain name) and any aliases
-        ServerAdmin brad@azpixels.com
-        ServerName  local.startup.com
+        ServerName  your-domain.com
 
         # Index file and Document Root (where the public files are located)
         DocumentRoot /var/www/
