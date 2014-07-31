@@ -1,0 +1,20 @@
+<VirtualHost *:80>
+
+        # Admin email, Server Name (domain name) and any aliases
+        ServerAdmin brad@azpixels.com
+        ServerName  local.startup.com
+
+        # Index file and Document Root (where the public files are located)
+        DocumentRoot /var/www/
+
+        # Custom log file locations
+        LogLevel warn
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+        <Directory /var/www/>
+                Options FollowSymLinks
+                AllowOverride All
+        </Directory>
+
+</VirtualHost>
