@@ -1,0 +1,11 @@
+{
+    "name": "vanam/vagrant-kickstarter",
+    "type": "project",
+    "require": {
+        "php": ">=7.1.0",
+        "ext-mysql": "*",
+        "ext-zip": "*",
+
+        "dg/adminer-custom": "^1.9"
+    }
+}
