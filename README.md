@@ -15,7 +15,7 @@ Start your Vagrant project in no time.
 3) Install plugins
   * (Recommended) `vagrant plugin install vagrant-hostmanager`
     * Automatically fills `/etc/hosts`
-    * It **prompts** a user **for a password**. For **passwordless** sudo follow [Passwordless sudo instructions](https://github.com/devopsgroup-io/vagrant-hostmanager#passwordless-sudo)
+    * It **prompts** a user **for a password**. For **passwordless** sudo follow [Passwordless sudo](https://github.com/devopsgroup-io/vagrant-hostmanager#passwordless-sudo) instructions
 4) Edit `config.vm.hostname`
 5) Select configuration in main provisioning file `install.sh`
 6) (Optional) Fine tune configuration files
@@ -42,7 +42,7 @@ My goal here is to create **simplistic** and **modular** Vagrant project demo wh
 
 ## Contribution
 
-Feel free to use, modify, and extend the code. Bug fixes and improvements are welcomed. However, I am sceptical about pull requests containing new functionality because I don't want to build an almighty Goliath.
+Feel free to use, modify, and extend the code. Bug fixes and improvements are welcomed. However, I am sceptical about accepting pull requests containing new functionality because I don't want to build an almighty Goliath. Nevertheless, who knows ;-)
 
 ## Credits
 
