@@ -9,7 +9,7 @@ add-apt-repository ppa:ondrej/php
 echo "----- Provision: Re-synchronize the package index files from their sources ..."
 apt-get update
 
-echo "----- Provision: Re-synchronize the package index files from their sources ..."
+echo "----- Provision: Install the newest versions of all packages currently installed on the system ..."
 apt-get upgrade -y
 
 # Available configurations
