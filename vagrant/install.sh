@@ -7,10 +7,10 @@ echo "----- Provision: Add repositories ..."
 add-apt-repository ppa:ondrej/php
 
 echo "----- Provision: Re-synchronize the package index files from their sources ..."
-# apt-get update
+apt-get update
 
 echo "----- Provision: Re-synchronize the package index files from their sources ..."
-# apt-get upgrade -y
+apt-get upgrade -y
 
 # Available configurations
 bash /vagrant/vagrant/apache/apache.sh
