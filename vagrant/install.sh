@@ -13,10 +13,10 @@ echo "----- Provision: Install the newest versions of all packages currently ins
 apt-get upgrade -y
 
 # Available configurations
-bash /vagrant/vagrant/apache/apache.sh
-bash /vagrant/vagrant/mysql/mysql.sh
-bash /vagrant/vagrant/php/php.sh
-bash /vagrant/vagrant/utils/utils.sh
+bash /vagrant/vagrant/apache/install.sh
+bash /vagrant/vagrant/mysql/install.sh
+bash /vagrant/vagrant/php/install.sh
+bash /vagrant/vagrant/utils/install.sh
 
 # Cleanup
 apt-get -y autoremove
