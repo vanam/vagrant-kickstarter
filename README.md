@@ -7,6 +7,7 @@ Start your Vagrant project in no time.
 * Apache
 * PHP (PHP 7.1 + composer)
 * MySQL
+* Cron
 
 ## Usage
 
@@ -26,9 +27,7 @@ My goal here is to create **simplistic** and **modular** Vagrant project demo wh
 
 ### Configurations
 
-* Cron
 * Jekyll
-* Cron
 * NodeJS
 * Wordpress
 * MariaDB
