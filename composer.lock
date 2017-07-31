@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "73b48aab882711d65af240963fbecbba",
+    "content-hash": "7f629b0a1f567cbadf0effed239c364b",
     "packages": [
         {
             "name": "dg/adminer-custom",
@@ -44,6 +44,7 @@
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.1.0",
+        "ext-mysqlnd": "*",
         "ext-zip": "*"
     },
     "platform-dev": []
