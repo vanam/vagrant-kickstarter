@@ -5,3 +5,4 @@ cd "/vagrant"
 
 echo "----- Provision: Installing composer dependencies ..."
 composer install --no-interaction
+composer update --no-interaction --lock
