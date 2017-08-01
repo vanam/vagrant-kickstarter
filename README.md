@@ -21,6 +21,14 @@ Start your Vagrant project in no time.
 5) Select configuration in main provisioning file `install.sh`
 6) (Optional) Fine tune configuration files
 
+## Blog
+
+I have written several blog posts about this repository:
+
+* [A cron job using Vagrant](https://martinvana.com/blog/2017/08/01/a-cron-job-using-vagrant/)
+* [LAMP with Vagrant](https://martinvana.com/blog/2017/07/28/lamp-with-vagrant/)
+* [Setting up Vagrant](https://martinvana.com/blog/2017/07/26/setting-up-vagrant/)
+
 ## Roadmap
 
 My goal here is to create **simplistic** and **modular** Vagrant project demo where unwanted functionality can be easily gotten rid off.
